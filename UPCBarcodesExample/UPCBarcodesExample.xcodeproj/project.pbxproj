@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE958BB320D328E3000F7B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BB220D328E3000F7B78 /* AppDelegate.m */; };
+		DE958BB620D328E3000F7B78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BB520D328E3000F7B78 /* ViewController.m */; };
+		DE958BB920D328E3000F7B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE958BB720D328E3000F7B78 /* Main.storyboard */; };
+		DE958BBB20D328E5000F7B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE958BBA20D328E5000F7B78 /* Assets.xcassets */; };
+		DE958BBE20D328E5000F7B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE958BBC20D328E5000F7B78 /* LaunchScreen.storyboard */; };
+		DE958BC120D328E5000F7B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BC020D328E5000F7B78 /* main.m */; };
+		DE958BCB20D328E5000F7B78 /* UPCBarcodesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BCA20D328E5000F7B78 /* UPCBarcodesExampleTests.m */; };
+		DE958BD620D328E5000F7B78 /* UPCBarcodesExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BD520D328E5000F7B78 /* UPCBarcodesExampleUITests.m */; };
+		DE958BE620D329E7000F7B78 /* SHEAN13BarcodeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE958BE520D329E7000F7B78 /* SHEAN13BarcodeRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE958BC720D328E5000F7B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE958BA620D328E3000F7B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE958BAD20D328E3000F7B78;
+			remoteInfo = UPCBarcodesExample;
+		};
+		DE958BD220D328E5000F7B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE958BA620D328E3000F7B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE958BAD20D328E3000F7B78;
+			remoteInfo = UPCBarcodesExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE958BAE20D328E3000F7B78 /* UPCBarcodesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPCBarcodesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE958BB120D328E3000F7B78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE958BB220D328E3000F7B78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE958BB420D328E3000F7B78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE958BB520D328E3000F7B78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE958BB820D328E3000F7B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE958BBA20D328E5000F7B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE958BBD20D328E5000F7B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE958BBF20D328E5000F7B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE958BC020D328E5000F7B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE958BC620D328E5000F7B78 /* UPCBarcodesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPCBarcodesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE958BCA20D328E5000F7B78 /* UPCBarcodesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPCBarcodesExampleTests.m; sourceTree = "<group>"; };
+		DE958BCC20D328E5000F7B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE958BD120D328E5000F7B78 /* UPCBarcodesExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPCBarcodesExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE958BD520D328E5000F7B78 /* UPCBarcodesExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPCBarcodesExampleUITests.m; sourceTree = "<group>"; };
+		DE958BD720D328E5000F7B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE958BE420D329E7000F7B78 /* SHEAN13BarcodeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHEAN13BarcodeRenderer.h; path = ../../Library/SHEAN13BarcodeRenderer.h; sourceTree = "<group>"; };
+		DE958BE520D329E7000F7B78 /* SHEAN13BarcodeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHEAN13BarcodeRenderer.m; path = ../../Library/SHEAN13BarcodeRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE958BAB20D328E3000F7B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BC320D328E5000F7B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BCE20D328E5000F7B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE958BA520D328E3000F7B78 = {
+			isa = PBXGroup;
+			children = (
+				DE958BE320D329D7000F7B78 /* Library */,
+				DE958BB020D328E3000F7B78 /* UPCBarcodesExample */,
+				DE958BC920D328E5000F7B78 /* UPCBarcodesExampleTests */,
+				DE958BD420D328E5000F7B78 /* UPCBarcodesExampleUITests */,
+				DE958BAF20D328E3000F7B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE958BAF20D328E3000F7B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE958BAE20D328E3000F7B78 /* UPCBarcodesExample.app */,
+				DE958BC620D328E5000F7B78 /* UPCBarcodesExampleTests.xctest */,
+				DE958BD120D328E5000F7B78 /* UPCBarcodesExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE958BB020D328E3000F7B78 /* UPCBarcodesExample */ = {
+			isa = PBXGroup;
+			children = (
+				DE958BB120D328E3000F7B78 /* AppDelegate.h */,
+				DE958BB220D328E3000F7B78 /* AppDelegate.m */,
+				DE958BB420D328E3000F7B78 /* ViewController.h */,
+				DE958BB520D328E3000F7B78 /* ViewController.m */,
+				DE958BB720D328E3000F7B78 /* Main.storyboard */,
+				DE958BBA20D328E5000F7B78 /* Assets.xcassets */,
+				DE958BBC20D328E5000F7B78 /* LaunchScreen.storyboard */,
+				DE958BBF20D328E5000F7B78 /* Info.plist */,
+				DE958BC020D328E5000F7B78 /* main.m */,
+			);
+			path = UPCBarcodesExample;
+			sourceTree = "<group>";
+		};
+		DE958BC920D328E5000F7B78 /* UPCBarcodesExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE958BCA20D328E5000F7B78 /* UPCBarcodesExampleTests.m */,
+				DE958BCC20D328E5000F7B78 /* Info.plist */,
+			);
+			path = UPCBarcodesExampleTests;
+			sourceTree = "<group>";
+		};
+		DE958BD420D328E5000F7B78 /* UPCBarcodesExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE958BD520D328E5000F7B78 /* UPCBarcodesExampleUITests.m */,
+				DE958BD720D328E5000F7B78 /* Info.plist */,
+			);
+			path = UPCBarcodesExampleUITests;
+			sourceTree = "<group>";
+		};
+		DE958BE320D329D7000F7B78 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DE958BE420D329E7000F7B78 /* SHEAN13BarcodeRenderer.h */,
+				DE958BE520D329E7000F7B78 /* SHEAN13BarcodeRenderer.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE958BAD20D328E3000F7B78 /* UPCBarcodesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE958BDA20D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExample" */;
+			buildPhases = (
+				DE958BAA20D328E3000F7B78 /* Sources */,
+				DE958BAB20D328E3000F7B78 /* Frameworks */,
+				DE958BAC20D328E3000F7B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPCBarcodesExample;
+			productName = UPCBarcodesExample;
+			productReference = DE958BAE20D328E3000F7B78 /* UPCBarcodesExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE958BC520D328E5000F7B78 /* UPCBarcodesExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE958BDD20D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExampleTests" */;
+			buildPhases = (
+				DE958BC220D328E5000F7B78 /* Sources */,
+				DE958BC320D328E5000F7B78 /* Frameworks */,
+				DE958BC420D328E5000F7B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE958BC820D328E5000F7B78 /* PBXTargetDependency */,
+			);
+			name = UPCBarcodesExampleTests;
+			productName = UPCBarcodesExampleTests;
+			productReference = DE958BC620D328E5000F7B78 /* UPCBarcodesExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE958BD020D328E5000F7B78 /* UPCBarcodesExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE958BE020D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExampleUITests" */;
+			buildPhases = (
+				DE958BCD20D328E5000F7B78 /* Sources */,
+				DE958BCE20D328E5000F7B78 /* Frameworks */,
+				DE958BCF20D328E5000F7B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE958BD320D328E5000F7B78 /* PBXTargetDependency */,
+			);
+			name = UPCBarcodesExampleUITests;
+			productName = UPCBarcodesExampleUITests;
+			productReference = DE958BD120D328E5000F7B78 /* UPCBarcodesExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE958BA620D328E3000F7B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = StubHub;
+				TargetAttributes = {
+					DE958BAD20D328E3000F7B78 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DE958BC520D328E5000F7B78 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DE958BAD20D328E3000F7B78;
+					};
+					DE958BD020D328E5000F7B78 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DE958BAD20D328E3000F7B78;
+					};
+				};
+			};
+			buildConfigurationList = DE958BA920D328E3000F7B78 /* Build configuration list for PBXProject "UPCBarcodesExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE958BA520D328E3000F7B78;
+			productRefGroup = DE958BAF20D328E3000F7B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE958BAD20D328E3000F7B78 /* UPCBarcodesExample */,
+				DE958BC520D328E5000F7B78 /* UPCBarcodesExampleTests */,
+				DE958BD020D328E5000F7B78 /* UPCBarcodesExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE958BAC20D328E3000F7B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE958BBE20D328E5000F7B78 /* LaunchScreen.storyboard in Resources */,
+				DE958BBB20D328E5000F7B78 /* Assets.xcassets in Resources */,
+				DE958BB920D328E3000F7B78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BC420D328E5000F7B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BCF20D328E5000F7B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE958BAA20D328E3000F7B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE958BB620D328E3000F7B78 /* ViewController.m in Sources */,
+				DE958BE620D329E7000F7B78 /* SHEAN13BarcodeRenderer.m in Sources */,
+				DE958BC120D328E5000F7B78 /* main.m in Sources */,
+				DE958BB320D328E3000F7B78 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BC220D328E5000F7B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE958BCB20D328E5000F7B78 /* UPCBarcodesExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE958BCD20D328E5000F7B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE958BD620D328E5000F7B78 /* UPCBarcodesExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE958BC820D328E5000F7B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE958BAD20D328E3000F7B78 /* UPCBarcodesExample */;
+			targetProxy = DE958BC720D328E5000F7B78 /* PBXContainerItemProxy */;
+		};
+		DE958BD320D328E5000F7B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE958BAD20D328E3000F7B78 /* UPCBarcodesExample */;
+			targetProxy = DE958BD220D328E5000F7B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE958BB720D328E3000F7B78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE958BB820D328E3000F7B78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE958BBC20D328E5000F7B78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE958BBD20D328E5000F7B78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE958BD820D328E5000F7B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE958BD920D328E5000F7B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE958BDB20D328E5000F7B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE958BDC20D328E5000F7B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE958BDE20D328E5000F7B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPCBarcodesExample.app/UPCBarcodesExample";
+			};
+			name = Debug;
+		};
+		DE958BDF20D328E5000F7B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPCBarcodesExample.app/UPCBarcodesExample";
+			};
+			name = Release;
+		};
+		DE958BE120D328E5000F7B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UPCBarcodesExample;
+			};
+			name = Debug;
+		};
+		DE958BE220D328E5000F7B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPCBarcodesExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stubhub.UPCBarcodesExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UPCBarcodesExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE958BA920D328E3000F7B78 /* Build configuration list for PBXProject "UPCBarcodesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE958BD820D328E5000F7B78 /* Debug */,
+				DE958BD920D328E5000F7B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE958BDA20D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE958BDB20D328E5000F7B78 /* Debug */,
+				DE958BDC20D328E5000F7B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE958BDD20D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE958BDE20D328E5000F7B78 /* Debug */,
+				DE958BDF20D328E5000F7B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE958BE020D328E5000F7B78 /* Build configuration list for PBXNativeTarget "UPCBarcodesExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE958BE120D328E5000F7B78 /* Debug */,
+				DE958BE220D328E5000F7B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE958BA620D328E3000F7B78 /* Project object */;
+}
